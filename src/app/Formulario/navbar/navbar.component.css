@@ -1,0 +1,53 @@
+a {
+    font-size:14px;
+    font-weight:700
+  }
+  .superNav {
+    font-size:13px;
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+  }
+  
+  .imagen-blanca {
+    filter: sepia(1%);
+    mix-blend-mode: difference; /* o exclusion */
+    
+  }
+  
+  .menu-icon {
+    color: white; /* Cambia el color del ícono a blanco */
+  }
+  
+  
+  
+  header[role="banner"] {
+  #logo-main {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+  .navbar-nav { 
+    width: 100%;
+    text-align: center;
+    > li {
+      display: inline-block;
+      float: none;
+      > a {
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+    }
+  }
+}
+
